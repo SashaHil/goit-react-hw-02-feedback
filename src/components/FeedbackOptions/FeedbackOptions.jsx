@@ -4,16 +4,16 @@ import { Buttons, ButtonsLayout } from './FeedbackOptions.styled';
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <ButtonsLayout>
-      {options.map((name, i) => {
+      {options.map(option => {
         return (
           <Buttons
             type="button"
-            key={i + 1}
+            key={option}
             onClick={() => {
-              onLeaveFeedback(name);
+              onLeaveFeedback(option);
             }}
           >
-            {name}
+            {option}
           </Buttons>
         );
       })}
