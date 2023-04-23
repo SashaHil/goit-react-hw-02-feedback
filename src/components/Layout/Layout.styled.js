@@ -10,4 +10,8 @@ export const Container = styled.div`
 
   border: 2px solid black;
   border-radius: 6px;
+
+  background-color: rgba(255, 252, 53, 0.9);
+
+  box-shadow: 3px 5px 5px grey;
 `;

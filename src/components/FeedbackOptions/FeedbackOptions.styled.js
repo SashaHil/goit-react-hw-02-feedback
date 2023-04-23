@@ -10,18 +10,17 @@ export const ButtonsLayout = styled.div`
 export const Buttons = styled.button`
   padding: 3px 15px;
 
-  background-color: transparent;
+  background-color: #2196f3;
+  color: #ffffff;
 
   border-radius: 4px;
-  border: 1px solid grey;
+  border: transparent;
 
   cursor: pointer;
 
   &:hover,
   &:focus {
-    color: white;
-    background-color: blue;
-
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 `;
